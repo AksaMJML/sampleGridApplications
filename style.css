@@ -18,3 +18,23 @@ body{
 p{
     font-family: "Playwrite US Modern", cursive;
 }
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua ;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+
+#box2{
+    height: 150px;
+    width: 150px;
+    background-color: darkmagenta ;
+    position: sticky;
+    bottom: 10px;
+    left: 5px;
+    border-radius: 50%;
+    z-index: -1;
+}
